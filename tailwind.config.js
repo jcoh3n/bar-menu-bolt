@@ -1,0 +1,55 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        copper: {
+          50: '#fdf6f3',
+          100: '#f9e9e1',
+          200: '#f4d1c3',
+          300: '#eab19d',
+          400: '#e18566',
+          500: '#d65f3e',
+          600: '#c44b32',
+          700: '#a33a2b',
+          800: '#853229',
+          900: '#6d2c25',
+          950: '#3a140f',
+        },
+        navy: {
+          50: '#f2f5f9',
+          100: '#e2e9f3',
+          200: '#ccd9ea',
+          300: '#a9c0dc',
+          400: '#819eca',
+          500: '#6481bb',
+          600: '#4e67aa',
+          700: '#445794',
+          800: '#3c4979',
+          900: '#354061',
+          950: '#1d2236',
+        },
+        cream: {
+          50: '#fbfaf7',
+          100: '#f5f2ea',
+          200: '#ebe4d3',
+          300: '#dfd0b5',
+          400: '#cdb592',
+          500: '#c09f77',
+          600: '#b38965',
+          700: '#956f54',
+          800: '#795b47',
+          900: '#634b3c',
+          950: '#342620',
+        },
+      },
+      fontFamily: {
+        serif: ['Playfair Display', 'serif'],
+        sans: ['Inter', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+};
